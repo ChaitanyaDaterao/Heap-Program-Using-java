@@ -17,7 +17,10 @@ public class HeapSort {
 
     private static void sink(int[] arr, int i, int n) {
         while (true) {
+
+// to insert value in left node //
             int left = 2 * i + 1;
+// to insert value in right node
             int right = 2 * i + 2;
 
             int largest = i;
